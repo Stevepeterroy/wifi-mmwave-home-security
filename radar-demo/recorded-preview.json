@@ -1,0 +1,2944 @@
+{
+  "source": {
+    "capture_date": "6 October 2026",
+    "mode": "Recorded ESP UART0 console preview",
+    "original_directory": "/Users/stevepeterroy/Desktop/Final Year Project Sources/rd60_esp_diagnostic/gpio21/test-20261006-203537",
+    "firmware": "V4.130.4.2",
+    "complete_binary_cloud": false,
+    "coordinate_units": "cm",
+    "velocity_units": "cm/s",
+    "playback_interval_ms": 200,
+    "interval_basis": "Configured radar period; original per-report timestamps unavailable",
+    "activity_labels": null,
+    "unlabelled_value": "Meaning not verified; not used by demo"
+  },
+  "summary": {
+    "nonempty_reports": 81,
+    "reported_points": 459,
+    "preview_points": 280,
+    "incomplete_reports": 47
+  },
+  "frames": [
+    {
+      "sequence": 1,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 2,
+      "reported_points": 2,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 61,
+          "y_cm": 227,
+          "z_cm": -102,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2200
+        },
+        {
+          "point_index": 1,
+          "x_cm": 174,
+          "y_cm": 375,
+          "z_cm": -170,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 1900
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 3,
+      "reported_points": 10,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 56,
+          "y_cm": 195,
+          "z_cm": -54,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2700
+        },
+        {
+          "point_index": 1,
+          "x_cm": 62,
+          "y_cm": 197,
+          "z_cm": -56,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 65,
+          "y_cm": 200,
+          "z_cm": -57,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 57,
+          "y_cm": 209,
+          "z_cm": -45,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2700
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 4,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 5,
+      "reported_points": 4,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 171,
+          "y_cm": 434,
+          "z_cm": -249,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 208,
+          "y_cm": 512,
+          "z_cm": -69,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2300
+        },
+        {
+          "point_index": 2,
+          "x_cm": 220,
+          "y_cm": 510,
+          "z_cm": -74,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2900
+        },
+        {
+          "point_index": 3,
+          "x_cm": 233,
+          "y_cm": 506,
+          "z_cm": -89,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2200
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 6,
+      "reported_points": 8,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 61,
+          "y_cm": 186,
+          "z_cm": -85,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 2600
+        },
+        {
+          "point_index": 1,
+          "x_cm": 64,
+          "y_cm": 188,
+          "z_cm": -88,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 78,
+          "y_cm": 190,
+          "z_cm": -83,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3000
+        },
+        {
+          "point_index": 3,
+          "x_cm": -196,
+          "y_cm": 0,
+          "z_cm": -111,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 1700
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 7,
+      "reported_points": 7,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 60,
+          "y_cm": 70,
+          "z_cm": -57,
+          "velocity_cm_s": 75,
+          "unlabelled_value": 2200
+        },
+        {
+          "point_index": 1,
+          "x_cm": 64,
+          "y_cm": 71,
+          "z_cm": -58,
+          "velocity_cm_s": 75,
+          "unlabelled_value": 2500
+        },
+        {
+          "point_index": 2,
+          "x_cm": -23,
+          "y_cm": 182,
+          "z_cm": 130,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2100
+        },
+        {
+          "point_index": 3,
+          "x_cm": -70,
+          "y_cm": 156,
+          "z_cm": 152,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2300
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 8,
+      "reported_points": 4,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 44,
+          "y_cm": 176,
+          "z_cm": -120,
+          "velocity_cm_s": 75,
+          "unlabelled_value": 1900
+        },
+        {
+          "point_index": 1,
+          "x_cm": 194,
+          "y_cm": 513,
+          "z_cm": -94,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2600
+        },
+        {
+          "point_index": 2,
+          "x_cm": 211,
+          "y_cm": 510,
+          "z_cm": -98,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 221,
+          "y_cm": 506,
+          "z_cm": -114,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 3100
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 9,
+      "reported_points": 7,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 64,
+          "y_cm": 182,
+          "z_cm": -100,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 1,
+          "x_cm": 75,
+          "y_cm": 181,
+          "z_cm": -102,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 126,
+          "y_cm": 155,
+          "z_cm": -103,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2000
+        },
+        {
+          "point_index": 3,
+          "x_cm": 11,
+          "y_cm": 218,
+          "z_cm": -127,
+          "velocity_cm_s": 150,
+          "unlabelled_value": 1900
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 10,
+      "reported_points": 6,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 48,
+          "y_cm": 202,
+          "z_cm": -32,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2900
+        },
+        {
+          "point_index": 1,
+          "x_cm": 53,
+          "y_cm": 204,
+          "z_cm": -32,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2800
+        },
+        {
+          "point_index": 2,
+          "x_cm": 28,
+          "y_cm": 158,
+          "z_cm": -163,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 1900
+        },
+        {
+          "point_index": 3,
+          "x_cm": 89,
+          "y_cm": 436,
+          "z_cm": -46,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2300
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 11,
+      "reported_points": 2,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 167,
+          "y_cm": 523,
+          "z_cm": -114,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2500
+        },
+        {
+          "point_index": 1,
+          "x_cm": 178,
+          "y_cm": 494,
+          "z_cm": -207,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2400
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 12,
+      "reported_points": 4,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 57,
+          "y_cm": 179,
+          "z_cm": -110,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2300
+        },
+        {
+          "point_index": 1,
+          "x_cm": 63,
+          "y_cm": 178,
+          "z_cm": -115,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2700
+        },
+        {
+          "point_index": 2,
+          "x_cm": 84,
+          "y_cm": 163,
+          "z_cm": -131,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2100
+        },
+        {
+          "point_index": 3,
+          "x_cm": -1,
+          "y_cm": 221,
+          "z_cm": -131,
+          "velocity_cm_s": 225,
+          "unlabelled_value": 2000
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 13,
+      "reported_points": 11,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 56,
+          "y_cm": 199,
+          "z_cm": -35,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2800
+        },
+        {
+          "point_index": 1,
+          "x_cm": 59,
+          "y_cm": 203,
+          "z_cm": -33,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 74,
+          "y_cm": 203,
+          "z_cm": -27,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2000
+        },
+        {
+          "point_index": 3,
+          "x_cm": 25,
+          "y_cm": 251,
+          "z_cm": -139,
+          "velocity_cm_s": 75,
+          "unlabelled_value": 3100
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 14,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 15,
+      "reported_points": 1,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 189,
+          "y_cm": 186,
+          "z_cm": 503,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2100
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 16,
+      "reported_points": 15,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 56,
+          "y_cm": 198,
+          "z_cm": -39,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2700
+        },
+        {
+          "point_index": 1,
+          "x_cm": 61,
+          "y_cm": 201,
+          "z_cm": -40,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 66,
+          "y_cm": 204,
+          "z_cm": -35,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2900
+        },
+        {
+          "point_index": 3,
+          "x_cm": 5,
+          "y_cm": 244,
+          "z_cm": -145,
+          "velocity_cm_s": 150,
+          "unlabelled_value": 2300
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 17,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 18,
+      "reported_points": 5,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 66,
+          "y_cm": 211,
+          "z_cm": -129,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 1900
+        },
+        {
+          "point_index": 1,
+          "x_cm": 156,
+          "y_cm": 365,
+          "z_cm": -207,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2500
+        },
+        {
+          "point_index": 2,
+          "x_cm": 177,
+          "y_cm": 367,
+          "z_cm": -194,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2400
+        },
+        {
+          "point_index": 3,
+          "x_cm": 217,
+          "y_cm": 508,
+          "z_cm": -67,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2100
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 19,
+      "reported_points": 9,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 60,
+          "y_cm": 191,
+          "z_cm": -74,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 1,
+          "x_cm": 63,
+          "y_cm": 193,
+          "z_cm": -79,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 65,
+          "y_cm": 198,
+          "z_cm": -75,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 0,
+          "y_cm": 248,
+          "z_cm": -137,
+          "velocity_cm_s": 150,
+          "unlabelled_value": 2300
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 20,
+      "reported_points": 1,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 53,
+          "y_cm": 116,
+          "z_cm": -190,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 1800
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 21,
+      "reported_points": 6,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 3,
+          "y_cm": 198,
+          "z_cm": -81,
+          "velocity_cm_s": 150,
+          "unlabelled_value": 2100
+        },
+        {
+          "point_index": 1,
+          "x_cm": 141,
+          "y_cm": 435,
+          "z_cm": -258,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2600
+        },
+        {
+          "point_index": 2,
+          "x_cm": 158,
+          "y_cm": 436,
+          "z_cm": -255,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2800
+        },
+        {
+          "point_index": 3,
+          "x_cm": 200,
+          "y_cm": 416,
+          "z_cm": -266,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 1900
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 22,
+      "reported_points": 5,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 59,
+          "y_cm": 183,
+          "z_cm": -92,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2600
+        },
+        {
+          "point_index": 1,
+          "x_cm": 65,
+          "y_cm": 188,
+          "z_cm": -88,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 79,
+          "y_cm": 190,
+          "z_cm": -81,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 12,
+          "y_cm": 219,
+          "z_cm": -133,
+          "velocity_cm_s": 150,
+          "unlabelled_value": 2000
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 23,
+      "reported_points": 6,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 50,
+          "y_cm": 196,
+          "z_cm": -35,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2200
+        },
+        {
+          "point_index": 1,
+          "x_cm": 52,
+          "y_cm": 201,
+          "z_cm": -34,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2800
+        },
+        {
+          "point_index": 2,
+          "x_cm": 14,
+          "y_cm": 185,
+          "z_cm": -122,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2800
+        },
+        {
+          "point_index": 3,
+          "x_cm": 52,
+          "y_cm": 152,
+          "z_cm": -163,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2900
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 24,
+      "reported_points": 3,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 15,
+          "y_cm": 204,
+          "z_cm": -48,
+          "velocity_cm_s": 112,
+          "unlabelled_value": 1900
+        },
+        {
+          "point_index": 1,
+          "x_cm": 200,
+          "y_cm": 514,
+          "z_cm": -98,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2900
+        },
+        {
+          "point_index": 2,
+          "x_cm": 205,
+          "y_cm": 516,
+          "z_cm": -103,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2700
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 25,
+      "reported_points": 4,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 128,
+          "y_cm": 426,
+          "z_cm": -76,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 145,
+          "y_cm": 411,
+          "z_cm": -130,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2000
+        },
+        {
+          "point_index": 2,
+          "x_cm": 197,
+          "y_cm": 403,
+          "z_cm": -241,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2200
+        },
+        {
+          "point_index": 3,
+          "x_cm": 198,
+          "y_cm": 416,
+          "z_cm": -226,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2400
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 26,
+      "reported_points": 12,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 56,
+          "y_cm": 199,
+          "z_cm": -38,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2400
+        },
+        {
+          "point_index": 1,
+          "x_cm": 61,
+          "y_cm": 202,
+          "z_cm": -34,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2600
+        },
+        {
+          "point_index": 2,
+          "x_cm": 1,
+          "y_cm": 214,
+          "z_cm": -70,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 1800
+        },
+        {
+          "point_index": 3,
+          "x_cm": 45,
+          "y_cm": 247,
+          "z_cm": -148,
+          "velocity_cm_s": 75,
+          "unlabelled_value": 2400
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 27,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 28,
+      "reported_points": 2,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 55,
+          "y_cm": 180,
+          "z_cm": -116,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2300
+        },
+        {
+          "point_index": 1,
+          "x_cm": 66,
+          "y_cm": 180,
+          "z_cm": -118,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 1900
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 29,
+      "reported_points": 10,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 57,
+          "y_cm": 197,
+          "z_cm": -45,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 62,
+          "y_cm": 199,
+          "z_cm": -45,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 69,
+          "y_cm": 203,
+          "z_cm": -38,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 9,
+          "y_cm": 247,
+          "z_cm": -140,
+          "velocity_cm_s": 150,
+          "unlabelled_value": 2300
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 30,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 31,
+      "reported_points": 2,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 230,
+          "y_cm": 500,
+          "z_cm": -83,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2400
+        },
+        {
+          "point_index": 1,
+          "x_cm": 243,
+          "y_cm": 498,
+          "z_cm": -86,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2600
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 32,
+      "reported_points": 9,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 56,
+          "y_cm": 191,
+          "z_cm": -66,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 1900
+        },
+        {
+          "point_index": 1,
+          "x_cm": 63,
+          "y_cm": 193,
+          "z_cm": -68,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 67,
+          "y_cm": 194,
+          "z_cm": -73,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 80,
+          "y_cm": 189,
+          "z_cm": -83,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 3100
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 33,
+      "reported_points": 5,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 49,
+          "y_cm": 201,
+          "z_cm": -32,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2100
+        },
+        {
+          "point_index": 1,
+          "x_cm": 4,
+          "y_cm": 165,
+          "z_cm": -142,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2300
+        },
+        {
+          "point_index": 2,
+          "x_cm": 6,
+          "y_cm": 140,
+          "z_cm": -171,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2300
+        },
+        {
+          "point_index": 3,
+          "x_cm": 126,
+          "y_cm": 443,
+          "z_cm": -267,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 1900
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 34,
+      "reported_points": 6,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 6,
+          "y_cm": 199,
+          "z_cm": -78,
+          "velocity_cm_s": 150,
+          "unlabelled_value": 2200
+        },
+        {
+          "point_index": 1,
+          "x_cm": 182,
+          "y_cm": 419,
+          "z_cm": -258,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2500
+        },
+        {
+          "point_index": 2,
+          "x_cm": 177,
+          "y_cm": 431,
+          "z_cm": -250,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2700
+        },
+        {
+          "point_index": 3,
+          "x_cm": 215,
+          "y_cm": 503,
+          "z_cm": -101,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 1900
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 35,
+      "reported_points": 8,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 58,
+          "y_cm": 180,
+          "z_cm": -99,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2100
+        },
+        {
+          "point_index": 1,
+          "x_cm": 63,
+          "y_cm": 182,
+          "z_cm": -100,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 71,
+          "y_cm": 186,
+          "z_cm": -96,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 103,
+          "y_cm": 182,
+          "z_cm": -84,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2300
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 36,
+      "reported_points": 3,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 50,
+          "y_cm": 197,
+          "z_cm": -33,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2200
+        },
+        {
+          "point_index": 1,
+          "x_cm": 48,
+          "y_cm": 202,
+          "z_cm": -31,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2900
+        },
+        {
+          "point_index": 2,
+          "x_cm": 55,
+          "y_cm": 205,
+          "z_cm": -26,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2700
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 37,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 38,
+      "reported_points": 4,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 60,
+          "y_cm": 180,
+          "z_cm": -106,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 67,
+          "y_cm": 181,
+          "z_cm": -109,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2400
+        },
+        {
+          "point_index": 2,
+          "x_cm": 104,
+          "y_cm": 281,
+          "z_cm": -156,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2600
+        },
+        {
+          "point_index": 3,
+          "x_cm": 118,
+          "y_cm": 291,
+          "z_cm": -136,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2600
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 39,
+      "reported_points": 9,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 53,
+          "y_cm": 200,
+          "z_cm": -34,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2900
+        },
+        {
+          "point_index": 1,
+          "x_cm": 58,
+          "y_cm": 203,
+          "z_cm": -31,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2800
+        },
+        {
+          "point_index": 2,
+          "x_cm": 24,
+          "y_cm": 250,
+          "z_cm": -141,
+          "velocity_cm_s": 75,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 30,
+          "y_cm": 253,
+          "z_cm": -142,
+          "velocity_cm_s": 75,
+          "unlabelled_value": 3100
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 40,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 41,
+      "reported_points": 1,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 69,
+          "y_cm": 230,
+          "z_cm": -88,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2100
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 42,
+      "reported_points": 12,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 57,
+          "y_cm": 195,
+          "z_cm": -53,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2600
+        },
+        {
+          "point_index": 1,
+          "x_cm": 63,
+          "y_cm": 197,
+          "z_cm": -54,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 66,
+          "y_cm": 201,
+          "z_cm": -51,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 65,
+          "y_cm": 208,
+          "z_cm": -36,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2400
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 43,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 44,
+      "reported_points": 4,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 119,
+          "y_cm": 437,
+          "z_cm": -266,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2300
+        },
+        {
+          "point_index": 1,
+          "x_cm": 148,
+          "y_cm": 439,
+          "z_cm": -256,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 228,
+          "y_cm": 501,
+          "z_cm": -79,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2200
+        },
+        {
+          "point_index": 3,
+          "x_cm": 242,
+          "y_cm": 500,
+          "z_cm": -77,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2500
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 45,
+      "reported_points": 7,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 59,
+          "y_cm": 189,
+          "z_cm": -81,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 1,
+          "x_cm": 64,
+          "y_cm": 191,
+          "z_cm": -83,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 70,
+          "y_cm": 195,
+          "z_cm": -77,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 190,
+          "y_cm": 0,
+          "z_cm": -121,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 1500
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 46,
+      "reported_points": 1,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 165,
+          "y_cm": 428,
+          "z_cm": -279,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 2300
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 47,
+      "reported_points": 5,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 118,
+          "y_cm": 444,
+          "z_cm": -254,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 146,
+          "y_cm": 441,
+          "z_cm": -253,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2400
+        },
+        {
+          "point_index": 2,
+          "x_cm": 205,
+          "y_cm": 504,
+          "z_cm": -116,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 1900
+        },
+        {
+          "point_index": 3,
+          "x_cm": 209,
+          "y_cm": 511,
+          "z_cm": -97,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2900
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 48,
+      "reported_points": 5,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 65,
+          "y_cm": 181,
+          "z_cm": -101,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 74,
+          "y_cm": 180,
+          "z_cm": -105,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3000
+        },
+        {
+          "point_index": 2,
+          "x_cm": 99,
+          "y_cm": 165,
+          "z_cm": -117,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 1900
+        },
+        {
+          "point_index": 3,
+          "x_cm": 260,
+          "y_cm": 734,
+          "z_cm": -285,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2500
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 49,
+      "reported_points": 5,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 50,
+          "y_cm": 201,
+          "z_cm": -32,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 1,
+          "x_cm": 53,
+          "y_cm": 205,
+          "z_cm": -27,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2900
+        },
+        {
+          "point_index": 2,
+          "x_cm": 96,
+          "y_cm": 417,
+          "z_cm": -102,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2500
+        },
+        {
+          "point_index": 3,
+          "x_cm": 101,
+          "y_cm": 427,
+          "z_cm": -67,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 3000
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 50,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 51,
+      "reported_points": 7,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 47,
+          "y_cm": 179,
+          "z_cm": -114,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 1900
+        },
+        {
+          "point_index": 1,
+          "x_cm": 52,
+          "y_cm": 182,
+          "z_cm": -115,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2700
+        },
+        {
+          "point_index": 2,
+          "x_cm": 64,
+          "y_cm": 180,
+          "z_cm": -119,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2500
+        },
+        {
+          "point_index": 3,
+          "x_cm": 111,
+          "y_cm": 265,
+          "z_cm": -171,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2000
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 52,
+      "reported_points": 10,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 56,
+          "y_cm": 198,
+          "z_cm": -41,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2900
+        },
+        {
+          "point_index": 1,
+          "x_cm": 61,
+          "y_cm": 201,
+          "z_cm": -37,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 63,
+          "y_cm": 207,
+          "z_cm": -27,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2900
+        },
+        {
+          "point_index": 3,
+          "x_cm": 12,
+          "y_cm": 244,
+          "z_cm": -144,
+          "velocity_cm_s": 112,
+          "unlabelled_value": 1900
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 53,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 54,
+      "reported_points": 2,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 237,
+          "y_cm": 497,
+          "z_cm": -77,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2300
+        },
+        {
+          "point_index": 1,
+          "x_cm": 249,
+          "y_cm": 497,
+          "z_cm": -72,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2100
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 55,
+      "reported_points": 9,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 57,
+          "y_cm": 194,
+          "z_cm": -54,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 2400
+        },
+        {
+          "point_index": 1,
+          "x_cm": 64,
+          "y_cm": 195,
+          "z_cm": -60,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 69,
+          "y_cm": 197,
+          "z_cm": -60,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 75,
+          "y_cm": 201,
+          "z_cm": -55,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 2800
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 56,
+      "reported_points": 2,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": -1,
+          "y_cm": 121,
+          "z_cm": -186,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 194,
+          "y_cm": 409,
+          "z_cm": -288,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 1900
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 57,
+      "reported_points": 4,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 5,
+          "y_cm": 195,
+          "z_cm": -87,
+          "velocity_cm_s": 150,
+          "unlabelled_value": 2100
+        },
+        {
+          "point_index": 1,
+          "x_cm": 232,
+          "y_cm": 504,
+          "z_cm": -79,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2200
+        },
+        {
+          "point_index": 2,
+          "x_cm": 188,
+          "y_cm": 189,
+          "z_cm": 502,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2400
+        },
+        {
+          "point_index": 3,
+          "x_cm": 126,
+          "y_cm": 0,
+          "z_cm": 558,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2000
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 58,
+      "reported_points": 10,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 61,
+          "y_cm": 178,
+          "z_cm": -100,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2200
+        },
+        {
+          "point_index": 1,
+          "x_cm": 67,
+          "y_cm": 187,
+          "z_cm": -89,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 77,
+          "y_cm": 190,
+          "z_cm": -82,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 55,
+          "y_cm": 177,
+          "z_cm": -121,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2000
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 59,
+      "reported_points": 4,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 37,
+          "y_cm": 201,
+          "z_cm": -29,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 3000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 46,
+          "y_cm": 203,
+          "z_cm": -29,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 52,
+          "y_cm": 205,
+          "z_cm": -27,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 142,
+          "y_cm": 435,
+          "z_cm": -281,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2000
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 60,
+      "reported_points": 2,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 184,
+          "y_cm": 525,
+          "z_cm": -70,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2700
+        },
+        {
+          "point_index": 1,
+          "x_cm": 199,
+          "y_cm": 522,
+          "z_cm": -78,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2600
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 61,
+      "reported_points": 7,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 62,
+          "y_cm": 181,
+          "z_cm": -103,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 65,
+          "y_cm": 181,
+          "z_cm": -110,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 2,
+          "y_cm": 216,
+          "z_cm": -138,
+          "velocity_cm_s": 187,
+          "unlabelled_value": 2000
+        },
+        {
+          "point_index": 3,
+          "x_cm": 122,
+          "y_cm": 418,
+          "z_cm": -120,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 1800
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 62,
+      "reported_points": 3,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 49,
+          "y_cm": 201,
+          "z_cm": -31,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2900
+        },
+        {
+          "point_index": 1,
+          "x_cm": 55,
+          "y_cm": 205,
+          "z_cm": -24,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2700
+        },
+        {
+          "point_index": 2,
+          "x_cm": 90,
+          "y_cm": 431,
+          "z_cm": -55,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2100
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 63,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 64,
+      "reported_points": 5,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 53,
+          "y_cm": 179,
+          "z_cm": -111,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 1900
+        },
+        {
+          "point_index": 1,
+          "x_cm": 58,
+          "y_cm": 182,
+          "z_cm": -112,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2800
+        },
+        {
+          "point_index": 2,
+          "x_cm": 61,
+          "y_cm": 183,
+          "z_cm": -116,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2400
+        },
+        {
+          "point_index": 3,
+          "x_cm": 127,
+          "y_cm": 290,
+          "z_cm": -129,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2400
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 65,
+      "reported_points": 14,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 58,
+          "y_cm": 197,
+          "z_cm": -44,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 64,
+          "y_cm": 199,
+          "z_cm": -44,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 67,
+          "y_cm": 203,
+          "z_cm": -37,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 29,
+          "y_cm": 241,
+          "z_cm": -147,
+          "velocity_cm_s": 75,
+          "unlabelled_value": 2400
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 66,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 67,
+      "reported_points": 6,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 74,
+          "y_cm": 206,
+          "z_cm": -133,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 134,
+          "y_cm": 397,
+          "z_cm": -156,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2000
+        },
+        {
+          "point_index": 2,
+          "x_cm": 152,
+          "y_cm": 402,
+          "z_cm": -139,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2400
+        },
+        {
+          "point_index": 3,
+          "x_cm": 195,
+          "y_cm": 394,
+          "z_cm": -118,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 1700
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 68,
+      "reported_points": 7,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 56,
+          "y_cm": 195,
+          "z_cm": -53,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2600
+        },
+        {
+          "point_index": 1,
+          "x_cm": 63,
+          "y_cm": 195,
+          "z_cm": -60,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 66,
+          "y_cm": 198,
+          "z_cm": -61,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 67,
+          "y_cm": 205,
+          "z_cm": -50,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2900
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 69,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 70,
+      "reported_points": 3,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 162,
+          "y_cm": 438,
+          "z_cm": -249,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2600
+        },
+        {
+          "point_index": 1,
+          "x_cm": 162,
+          "y_cm": 423,
+          "z_cm": -281,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 1700
+        },
+        {
+          "point_index": 2,
+          "x_cm": 242,
+          "y_cm": 498,
+          "z_cm": -89,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 1900
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 71,
+      "reported_points": 5,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 60,
+          "y_cm": 189,
+          "z_cm": -79,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 1,
+          "x_cm": 64,
+          "y_cm": 189,
+          "z_cm": -87,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 78,
+          "y_cm": 189,
+          "z_cm": -85,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": -4,
+          "y_cm": 249,
+          "z_cm": -136,
+          "velocity_cm_s": 225,
+          "unlabelled_value": 2500
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 72,
+      "reported_points": 4,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 45,
+          "y_cm": 199,
+          "z_cm": -31,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2500
+        },
+        {
+          "point_index": 1,
+          "x_cm": 47,
+          "y_cm": 202,
+          "z_cm": -29,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 52,
+          "y_cm": 205,
+          "z_cm": -30,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 3000
+        },
+        {
+          "point_index": 3,
+          "x_cm": 23,
+          "y_cm": 4,
+          "z_cm": -228,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2400
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 73,
+      "reported_points": 3,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 143,
+          "y_cm": 442,
+          "z_cm": -245,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 3000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 156,
+          "y_cm": 440,
+          "z_cm": -249,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 185,
+          "y_cm": 430,
+          "z_cm": -255,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2300
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 74,
+      "reported_points": 5,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 61,
+          "y_cm": 182,
+          "z_cm": -102,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2600
+        },
+        {
+          "point_index": 1,
+          "x_cm": 69,
+          "y_cm": 182,
+          "z_cm": -106,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2800
+        },
+        {
+          "point_index": 2,
+          "x_cm": 113,
+          "y_cm": 158,
+          "z_cm": -113,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2200
+        },
+        {
+          "point_index": 3,
+          "x_cm": 111,
+          "y_cm": 433,
+          "z_cm": -61,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2100
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 75,
+      "reported_points": 5,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 46,
+          "y_cm": 202,
+          "z_cm": -30,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2800
+        },
+        {
+          "point_index": 1,
+          "x_cm": 53,
+          "y_cm": 206,
+          "z_cm": -23,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2600
+        },
+        {
+          "point_index": 2,
+          "x_cm": 95,
+          "y_cm": 402,
+          "z_cm": -151,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2200
+        },
+        {
+          "point_index": 3,
+          "x_cm": 103,
+          "y_cm": 422,
+          "z_cm": -90,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2200
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 76,
+      "reported_points": 1,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": -208,
+          "y_cm": 144,
+          "z_cm": -39,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2200
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 77,
+      "reported_points": 8,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 61,
+          "y_cm": 180,
+          "z_cm": -105,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2100
+        },
+        {
+          "point_index": 1,
+          "x_cm": 69,
+          "y_cm": 180,
+          "z_cm": -109,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2300
+        },
+        {
+          "point_index": 2,
+          "x_cm": -5,
+          "y_cm": 216,
+          "z_cm": -130,
+          "velocity_cm_s": 225,
+          "unlabelled_value": 1800
+        },
+        {
+          "point_index": 3,
+          "x_cm": 2,
+          "y_cm": 224,
+          "z_cm": -124,
+          "velocity_cm_s": 225,
+          "unlabelled_value": 1800
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 78,
+      "reported_points": 11,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 53,
+          "y_cm": 200,
+          "z_cm": -32,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 1,
+          "x_cm": 57,
+          "y_cm": 204,
+          "z_cm": -29,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 71,
+          "y_cm": 204,
+          "z_cm": -23,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 1800
+        },
+        {
+          "point_index": 3,
+          "x_cm": 27,
+          "y_cm": 250,
+          "z_cm": -140,
+          "velocity_cm_s": 75,
+          "unlabelled_value": 2900
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 79,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 80,
+      "reported_points": 2,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 48,
+          "y_cm": 187,
+          "z_cm": -109,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 49,
+          "y_cm": 194,
+          "z_cm": -104,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 1900
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 81,
+      "reported_points": 13,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 58,
+          "y_cm": 196,
+          "z_cm": -47,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 62,
+          "y_cm": 199,
+          "z_cm": -45,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 66,
+          "y_cm": 203,
+          "z_cm": -39,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 23,
+          "y_cm": 244,
+          "z_cm": -144,
+          "velocity_cm_s": 112,
+          "unlabelled_value": 2300
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 82,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 83,
+      "reported_points": 4,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 79,
+          "y_cm": 204,
+          "z_cm": -134,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 1900
+        },
+        {
+          "point_index": 1,
+          "x_cm": 179,
+          "y_cm": 378,
+          "z_cm": -168,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 1900
+        },
+        {
+          "point_index": 2,
+          "x_cm": 220,
+          "y_cm": 506,
+          "z_cm": -73,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 1900
+        },
+        {
+          "point_index": 3,
+          "x_cm": 270,
+          "y_cm": 485,
+          "z_cm": -74,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2000
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 84,
+      "reported_points": 8,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 56,
+          "y_cm": 193,
+          "z_cm": -59,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2200
+        },
+        {
+          "point_index": 1,
+          "x_cm": 61,
+          "y_cm": 195,
+          "z_cm": -62,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 66,
+          "y_cm": 197,
+          "z_cm": -63,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 69,
+          "y_cm": 204,
+          "z_cm": -52,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2700
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 85,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 86,
+      "reported_points": 6,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 142,
+          "y_cm": 434,
+          "z_cm": -259,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2800
+        },
+        {
+          "point_index": 1,
+          "x_cm": 151,
+          "y_cm": 440,
+          "z_cm": -251,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2800
+        },
+        {
+          "point_index": 2,
+          "x_cm": 197,
+          "y_cm": 415,
+          "z_cm": -270,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 1700
+        },
+        {
+          "point_index": 3,
+          "x_cm": 245,
+          "y_cm": 497,
+          "z_cm": -83,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2400
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 87,
+      "reported_points": 5,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 62,
+          "y_cm": 189,
+          "z_cm": -79,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 2900
+        },
+        {
+          "point_index": 1,
+          "x_cm": 67,
+          "y_cm": 190,
+          "z_cm": -83,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 78,
+          "y_cm": 187,
+          "z_cm": -90,
+          "velocity_cm_s": -225,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": -8,
+          "y_cm": 250,
+          "z_cm": -134,
+          "velocity_cm_s": 225,
+          "unlabelled_value": 2600
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 88,
+      "reported_points": 3,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 43,
+          "y_cm": 199,
+          "z_cm": -31,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2700
+        },
+        {
+          "point_index": 1,
+          "x_cm": 47,
+          "y_cm": 202,
+          "z_cm": -30,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 50,
+          "y_cm": 206,
+          "z_cm": -26,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 3100
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 89,
+      "reported_points": 3,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 150,
+          "y_cm": 436,
+          "z_cm": -251,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2500
+        },
+        {
+          "point_index": 1,
+          "x_cm": 160,
+          "y_cm": 438,
+          "z_cm": -249,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2900
+        },
+        {
+          "point_index": 2,
+          "x_cm": 195,
+          "y_cm": 449,
+          "z_cm": -211,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2000
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 90,
+      "reported_points": 5,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 62,
+          "y_cm": 177,
+          "z_cm": -110,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2100
+        },
+        {
+          "point_index": 1,
+          "x_cm": 66,
+          "y_cm": 179,
+          "z_cm": -112,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2900
+        },
+        {
+          "point_index": 2,
+          "x_cm": 88,
+          "y_cm": 171,
+          "z_cm": -116,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2400
+        },
+        {
+          "point_index": 3,
+          "x_cm": 4,
+          "y_cm": 219,
+          "z_cm": -134,
+          "velocity_cm_s": 187,
+          "unlabelled_value": 1900
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 91,
+      "reported_points": 6,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 46,
+          "y_cm": 203,
+          "z_cm": -29,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2600
+        },
+        {
+          "point_index": 1,
+          "x_cm": 48,
+          "y_cm": 207,
+          "z_cm": -26,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2400
+        },
+        {
+          "point_index": 2,
+          "x_cm": 32,
+          "y_cm": 250,
+          "z_cm": -147,
+          "velocity_cm_s": 75,
+          "unlabelled_value": 2100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 100,
+          "y_cm": 403,
+          "z_cm": -62,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2100
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 92,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 93,
+      "reported_points": 3,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 53,
+          "y_cm": 180,
+          "z_cm": -110,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 59,
+          "y_cm": 181,
+          "z_cm": -114,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2700
+        },
+        {
+          "point_index": 2,
+          "x_cm": 74,
+          "y_cm": 176,
+          "z_cm": -119,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2400
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 94,
+      "reported_points": 13,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 57,
+          "y_cm": 199,
+          "z_cm": -36,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2600
+        },
+        {
+          "point_index": 1,
+          "x_cm": 59,
+          "y_cm": 203,
+          "z_cm": -33,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2900
+        },
+        {
+          "point_index": 2,
+          "x_cm": 50,
+          "y_cm": 210,
+          "z_cm": -24,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 25,
+          "y_cm": 251,
+          "z_cm": -139,
+          "velocity_cm_s": 75,
+          "unlabelled_value": 3100
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 95,
+      "reported_points": 2,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 106,
+          "y_cm": 459,
+          "z_cm": -174,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 107,
+          "y_cm": 442,
+          "z_cm": -222,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 1900
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 96,
+      "reported_points": 2,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 78,
+          "y_cm": 211,
+          "z_cm": -124,
+          "velocity_cm_s": -150,
+          "unlabelled_value": 2000
+        },
+        {
+          "point_index": 1,
+          "x_cm": 168,
+          "y_cm": 373,
+          "z_cm": -181,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2100
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 97,
+      "reported_points": 9,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 56,
+          "y_cm": 194,
+          "z_cm": -58,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2300
+        },
+        {
+          "point_index": 1,
+          "x_cm": 62,
+          "y_cm": 195,
+          "z_cm": -61,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 65,
+          "y_cm": 198,
+          "z_cm": -62,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 3,
+          "x_cm": 63,
+          "y_cm": 206,
+          "z_cm": -52,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        }
+      ],
+      "preview_incomplete": true
+    },
+    {
+      "sequence": 98,
+      "reported_points": 0,
+      "points": [],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 99,
+      "reported_points": 3,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 150,
+          "y_cm": 442,
+          "z_cm": -249,
+          "velocity_cm_s": -75,
+          "unlabelled_value": 2400
+        },
+        {
+          "point_index": 1,
+          "x_cm": 207,
+          "y_cm": 516,
+          "z_cm": -73,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2300
+        },
+        {
+          "point_index": 2,
+          "x_cm": 226,
+          "y_cm": 510,
+          "z_cm": -85,
+          "velocity_cm_s": -112,
+          "unlabelled_value": 2100
+        }
+      ],
+      "preview_incomplete": false
+    },
+    {
+      "sequence": 100,
+      "reported_points": 5,
+      "points": [
+        {
+          "point_index": 0,
+          "x_cm": 61,
+          "y_cm": 185,
+          "z_cm": -86,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2500
+        },
+        {
+          "point_index": 1,
+          "x_cm": 67,
+          "y_cm": 188,
+          "z_cm": -87,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 3100
+        },
+        {
+          "point_index": 2,
+          "x_cm": 83,
+          "y_cm": 185,
+          "z_cm": -89,
+          "velocity_cm_s": -187,
+          "unlabelled_value": 2900
+        },
+        {
+          "point_index": 3,
+          "x_cm": -9,
+          "y_cm": 250,
+          "z_cm": -133,
+          "velocity_cm_s": 225,
+          "unlabelled_value": 2500
+        }
+      ],
+      "preview_incomplete": true
+    }
+  ]
+}

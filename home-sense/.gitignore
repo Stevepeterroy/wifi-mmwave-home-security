@@ -1,0 +1,45 @@
+# ── Node / Frontend ─────────────────────────────────────────────────────────
+node_modules/
+dist/
+*.tsbuildinfo
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+*.egg-info/
+.eggs/
+
+# ── Runtime / local data (never commit) ──────────────────────────────────────
+data/
+evidence/
+exports/
+training_checks/
+
+# ── Secrets & env ────────────────────────────────────────────────────────────
+.env
+.env.*
+firmware/**/secrets.h
+
+# ── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── IDEs ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+
+# ── Android build outputs ────────────────────────────────────────────────────
+android/app/build/
+android/.gradle/
+android/build/
+android/capacitor-cordova-android-plugins/build/

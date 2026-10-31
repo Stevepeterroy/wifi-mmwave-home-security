@@ -1,0 +1,37 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+secrets.h
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+google-services.json
+local.properties
+# Dependencies, generated assets, runtime state
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.gradle/
+build/
+dist/
+www/
+.vercel/
+.idea/
+.DS_Store
+data/
+evidence/
+exports/
+*.db
+*.sqlite*
+*.log
+*.apk
+*.aab
+*.bin
+*.elf
+*.tsbuildinfo
+android/app/src/main/assets/public/

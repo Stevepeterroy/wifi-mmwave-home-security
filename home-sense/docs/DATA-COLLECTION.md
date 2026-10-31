@@ -1,0 +1,23 @@
+# Collecting evidence for activity recognition
+
+The existing capture has no activity labels and only console previews. It cannot validate a human classifier. This workflow prepares new operator-annotated sessions; it does not train a model or certify labels.
+
+1. Verify fresh live radar communication in Sensors, then run a finite scan during a single controlled activity. Use empty-room, walking, standing, sitting or lying-down trials. Do not stage falls. Record what actually happened, participant pseudonym, room, placement, environment changes and approximate trial boundaries separately.
+2. Export that module's live frames. Keep the original export unchanged. Check missing coordinates, report counts, receipt-time gaps and firmware version. A preview with four visible coordinates may omit other reflections.
+3. In live mode, finish the scan and stop persistent monitoring. In Sensors → Prepare an activity session, enter a session identifier and participant pseudonym, select the observed activity and choose **Save to Haven**. The service requires verified radar input, an assigned room, no active scan or monitoring, and an acknowledged stop. It stores immutable readings, original annotation, module placement, saved scan alignment, room geometry, active model reference, firmware and a hash of the canonical source snapshot. Physical calibration remains explicitly unverified. Duplicate captures and duplicate participant/session identifiers are refused. **Export annotated session** remains available for a standalone file.
+4. Open the recording under **Saved activity recordings**. Inspect duration, receipt-time ordering, missing previews and report counts. Download the original recording if needed. Choose the activity that describes the whole recording, write notes about what you observed and any interruptions, confirm you observed it throughout, then choose **Mark reviewed**. Use **Exclude from dataset** for interrupted/mixed trials and **Return to pending** for uncertain labels. Corrections append review history and never rewrite the original data or claim independently verified labels.
+5. Choose **Export reviewed dataset**. Only reviewed sessions with a known activity and at least two seconds of ordered receipt timestamps are included. These are minimal export checks, not model-quality certification; inspect large gaps and incomplete clouds before selecting training windows. The bundle includes originals, placement and review history. Pending, excluded, unlabelled, short or incorrectly timed recordings remain stored for review. Empty-room recordings with zero reported points are valid observations when the room was actually empty.
+
+Alternatively, package one single-activity export with the included tool:
+
+```sh
+python3 dataset.py live-export.json session-001.json --session session-001 --participant participant-A --room living-room --label walking
+```
+
+The tool refuses recorded replay and empty exports, retains the source file hash and incomplete-frame fields, and marks the whole-session annotation as operator-provided and unverified. It never turns reflection groups into human labels. Output creation refuses to overwrite an existing file. Use `--label unlabelled` if the trial activity is uncertain.
+
+Review annotations before training. Split mixed activities into properly bounded sessions using the retained trial notes; do not label every frame walking merely because walking occurred once. Collect multiple people, dates and rooms, including stationary and empty examples. Keep all windows from the same session together. Use participant-held-out evaluation before claiming generalization, and do not report paper benchmark accuracy as this project's accuracy.
+
+Host receipt times are not radar acquisition times. PA8 full-cloud decoding, acquisition timestamps and paired CSI remain unresolved. This console path can support exploratory baselines; suitability for STPM requires full input and target-domain evaluation. Fall detection and vital signs need separate supported acquisition and validation.
+
+No new labelled hardware session has been acquired. Existing hardware captures have no observed-activity notes and remain unlabelled. Seven new storage/HTTP checks use explicitly synthetic fixtures in temporary databases, covering restart persistence, immutable originals, review history, duplicates, timing exclusions, provenance checks, authenticated access and finite-scan guards. All 62 backend checks and 24 frontend checks pass; the production build is served. Browser collection controls and rendered phone/WebGL behavior remain unverified. Phone-alert setup is deferred by the user.

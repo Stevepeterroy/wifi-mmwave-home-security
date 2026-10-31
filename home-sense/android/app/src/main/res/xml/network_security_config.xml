@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Allows cleartext (HTTP) traffic to local network addresses (192.168.x.x, 10.x.x.x, 172.16-31.x.x)
+  so the app can reach the Haven Python server on your Mac over your home WiFi.
+  HTTPS is always allowed everywhere.
+-->
+<network-security-config>
+    <!-- Allow HTTP to local/private network ranges -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.0.0</domain>
+        <domain includeSubdomains="true">10.0.0.0</domain>
+        <domain includeSubdomains="true">172.16.0.0</domain>
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+    </domain-config>
+    <!-- Deny cleartext for everything else -->
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>

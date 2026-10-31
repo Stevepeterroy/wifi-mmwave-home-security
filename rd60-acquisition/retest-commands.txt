@@ -1,0 +1,16 @@
+# Based on commands reported accepted on 3 October, not newly hardware-tested.
+# This finite run requests 100 frames at 200 ms. Inspect UART0 for rejection.
+mmwc version
+mmwc stop
+mmwc baudrate 1000000
+mmwc mode 1 2
+mmwc chirp_num 1
+mmwc freq 58000 0
+mmwc range 10000 40
+mmwc veloc 3000 375
+mmwc frame 200 100
+mmwc coord cart
+mmwc data 3dpoints
+mmwc uart on
+mmwc report points 100
+mmwc start

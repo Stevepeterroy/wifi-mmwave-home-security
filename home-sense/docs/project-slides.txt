@@ -1,0 +1,461 @@
+
+PAGE 1
+Department of Computer Science and Engineering
+Vimal Jyothi Engineering College
+Chemperi
+AI-Based WiFi CSI and mmWave Home
+Security System
+MEMBERS:
+Steve Peter Roy (VML23CS226)
+Alen PS (VML23CS005)
+Aswanth K (VML23CS069)
+Thomas Sebastian (VML23CS232)
+GUIDE:
+Ms Sona P
+Group 5 AI Home Security 1 / 27
+
+PAGE 2
+OUTLINE
+1 OUTLINE
+2 ABSTRACT
+3 INTRODUCTION
+4 PROBLEM DEFINITION
+5 SCOPE
+6 OBJECTIVES
+7 LITERATURE SURVEY
+8 CONSOLIDATE TABLE
+9 REQUIREMENT SPECIFICATION
+10 PROPOSED SYSTEM AND DESIGN
+11 FEASIBILITY STUDY
+12 ARCHITECTURE DIAGRAM
+13 USE CASE DIAGRAM
+14 DATA FLOW DIAGRAM
+15 ER DIAGRAM
+16 GANTT CHART
+17 CONCLUSION
+Group 5 AI Home Security 2 / 27
+
+PAGE 3
+ABSTRACT
+Traditional home security systems such as CCTV and PIR sensors suffer
+from privacy concerns, limited coverage, and high false alarm rates.
+The proposed system combines WiFi Channel State Information (CSI) and
+mmWave radar to detect human presence without using cameras.
+ESP32 collects WiFi CSI data while the mmWave radar provides range,
+angle, and velocity information.
+Artificial Intelligence is used to classify human activities such as walking,
+standing, intrusion, and fall detection.
+The system generates real-time alerts through IoT and improves detection
+accuracy by fusing WiFi CSI and mmWave sensing.
+Group 5 AI Home Security 3 / 27
+
+PAGE 4
+INTRODUCTION
+Modern home security requires intelligent monitoring while preserving user
+privacy.
+WiFi CSI enables contactless sensing by analyzing changes in wireless
+signal propagation caused by human movement.
+mmWave radar accurately measures human position, velocity, and
+movement even in low-light conditions.
+This work integrates WiFi CSI, mmWave radar, and AI to provide an
+efficient smart home security solution.
+Group 5 AI Home Security 4 / 27
+
+PAGE 5
+PROBLEM DEFINITION
+Traditional CCTV and PIR-based security systems suffer from privacy
+concerns, false alarms, and limited detection capabilities, while standalone
+WiFi CSI or mmWave radar systems cannot provide sufficiently robust
+detection, creating the need for an AI-based multi-sensor solution that
+combines WiFi CSI and mmWave radar for accurate human detection and
+intrusion recognition.
+Group 5 AI Home Security 5 / 27
+
+PAGE 6
+SCOPE
+Detect human presence using WiFi CSI and mmWave radar.
+Classify human activities using Artificial Intelligence.
+Enable privacy-preserving indoor monitoring without cameras.
+Extend the system for elderly monitoring, smart homes, and multi-room
+occupancy detection.
+Group 5 AI Home Security 6 / 27
+
+PAGE 7
+OBJECTIVES
+To develop a privacy-preserving smart home security system using WiFi
+CSI and mmWave radar.
+To accurately detect human presence and distinguish humans from other
+moving objects.
+To provide real-time notifications through IoT-based alert mechanisms.
+Group 5 AI Home Security 7 / 27
+
+PAGE 8
+LITERATURE SURVEY
+Continuous AoA-ToF Maps Feature for WiFi Sensing
+Wi-Fi CSI-Based Human Activity Recognition
+Feature Fusion of mmWave Radar and Inertial Navigation
+Spatial-Temporal Point Mamba for mmWave Radar
+Human Activity Recognition via Wi-Fi and Inertial Sensors With Machine
+Learning
+Group 5 AI Home Security 8 / 27
+
+PAGE 9
+WiMUAR: Wi-Fi CSI Activity RecognitionReference:[1]
+Problem Statement
+When several people move at once, their activities produce overlapping changes
+in Wi-Fi CSI. The paper aims to recognize each person’s activity from these
+complex signals.
+Technology Used
+Wi-Fi CSI, CSI scaling and dynamic component separation, multi-scale dilated
+CNN, attention-enhanced bidirectional GRU, and online knowledge distillation.
+Advantages
+Recognizes activities in multi-person settings.
+Learns both CSI patterns and how they change over time.
+Uses Wi-Fi signals without requiring a camera.
+Disadvantages for Our Project
+Does not include mmWave radar or Wi-Fi–radar fusion.
+Its full model is more complex than our planned single-person baseline.
+Group 5 AI Home Security 9 / 27
+
+PAGE 10
+Wi-Fi CSI-Based HAR and Indoor Localization
+Reference:[2] I
+Problem Statement
+Irregular Wi-Fi CSI sampling caused by unstable packet transmission
+reduces activity recognition and indoor localization accuracy.
+The paper proposes a sampling irregularity mitigation framework to
+improve reliable real-time CSI sensing.
+Technology Used
+NeuralCDE, dual-stream learning(Temporal,Channel), Cross
+Attention,Dual-task learning.
+Advantages
+Improves recognition and localization accuracy.
+Reduces the effect of irregular CSI sampling.
+Robust under unstable Wi-Fi conditions.
+Group 5 AI Home Security 10 / 27
+
+PAGE 11
+Wi-Fi CSI-Based HAR and Indoor Localization
+Reference:[2] II
+Suitable for real-time smart home applications.
+Disadvantages
+Requires preprocessing of CSI data.
+Accuracy may reduce in highly crowded environments.
+Group 5 AI Home Security 11 / 27
+
+PAGE 12
+Feature Fusion of mmWave Radar and Inertial NavigationReference:[3]
+Problem Statement
+Single-sensor activity recognition suffers from limited robustness and
+accuracy. This paper combines mmWave radar and inertial navigation
+features to improve human activity recognition.
+Technology Used
+mmWave Radar, IMU Sensors(1D CNN),ViT, Deep Learning(RIMFA)
+Advantages
+Improves recognition accuracy through sensor fusion.
+Robust against environmental interference.
+Enhances feature representation.
+Suitable for indoor monitoring.
+Disadvantages
+Requires multiple sensing devices.
+Higher computational complexity.
+Group 5 AI Home Security 12 / 27
+
+PAGE 13
+Spatial-Temporal Point MambaReference:[4]
+Problem Statement
+Existing activity recognition models struggle to efficiently process sparse
+mmWave radar point clouds. The paper introduces the Spatial-Temporal
+Point Mamba model for accurate activity recognition.
+Technology Used
+mmWave Radar Point Clouds, Mamba Network
+Advantages
+Captures spatial and temporal information effectively.
+High recognition accuracy.
+Efficient point cloud processing.
+Suitable for real-time applications.
+Disadvantages
+Requires mmWave radar hardware.
+Model training requires large datasets.
+Group 5 AI Home Security 13 / 27
+
+PAGE 14
+Human Activity Recognition via Wi-Fi and Inertial Sensors With Machine
+Learning
+Reference:[5]
+PROBLEM STATEMENT
+Human activity recognition using a single sensing modality often suffers
+from limited accuracy and robustness due to environmental variations and
+sensor limitations. The paper proposes combining Wi-Fi CSI and IMU
+sensor data to improve activity recognition performance.
+TECHNOLOGY USED
+Wi-Fi Channel State Information (CSI), Inertial Measurement Unit (IMU),
+Machine Learning-(SVM,MLP,Decision Tree,Random Forest,Logistic
+Regression,kNN)
+ADVANTAGES:
+Improves activity recognition accuracy through sensor’s data fusion.
+Low-cost implementation using existing Wi-Fi infrastructure.
+DISADVANTAGES:
+Requires wearable IMU sensors in addition to Wi-Fi sensing.
+Less suitable for completely contactless monitoring.
+Group 5 AI Home Security 14 / 27
+
+PAGE 15
+CONSOLIDATED LITERATURE SURVEY (1/2)
+Paper / Reference Methodology Key Findings Advantages Limitations
+WiMUAR:
+Wi-Fi-Based
+Multi-User Human
+Activity Recognition
+Using Hybrid
+Spatio-Temporal
+Neural Network
+[1]
+Wi-Fi CSI
+preprocessing
+followed by
+multi-scale
+convolution and
+an attention-
+enhanced
+bidirectional
+GRU.
+Recognizes activities
+when multiple people
+move at the same time;
+reports 69.61%
+accuracy in its
+multi-user evaluation.
+Uses Wi-Fi
+CSI alone and
+models
+changes in
+activity over
+time.
+Focuses on
+multi-user
+sensing; does
+not evaluate
+mmWave
+fusion or the
+proposed
+ESP32-S3 and
+RD-60 setup.
+Wi-Fi CSI-Based
+Human Activity
+Recognition and
+Indoor Localization
+[2]
+Neural CDE,
+dual-stream
+learning and
+cross-attention.
+Mitigates irregular CSI
+sampling to improve
+activity recognition and
+indoor localization.
+Robust under
+unstable WiFi
+conditions.
+Higher
+preprocessing
+and
+computational
+complexity.
+Human Activity
+Recognition Based on
+Feature Fusion of
+Millimeter Wave
+Radar and Inertial
+Navigation
+[3]
+Fusion of data
+from mmWave
+radar and IMU
+using CNN and
+Vision
+Transformer.
+Two sensor’s data
+significantly improves
+recognition accuracy.
+High accuracy
+and strong
+noise
+robustness.
+Requires
+wearable IMU
+sensors.
+Group 5 AI Home Security 15 / 27
+
+PAGE 16
+CONSOLIDATED LITERATURE SURVEY (2/2)
+Paper / Reference Methodology Key Findings Advantages Limitations
+STPM:
+Spatial-Temporal
+Point Mamba for
+Activity Recognition
+Using mmWave
+Radar Point Clouds
+[4]
+Spatial-
+Temporal Point
+Mamba network
+for mmWave
+point-cloud
+processing.
+Learns spatial and
+temporal features
+efficiently for accurate
+real-time activity
+recognition.
+Efficient
+processing
+with high
+recognition
+accuracy.
+Requires
+labeled radar
+datasets and
+mmWave
+hardware.
+Human Activity
+Recognition via Wi-Fi
+and Inertial Sensors
+With Machine
+Learning
+[5]
+Fusion of data
+from WiFi CSI
+and IMU
+features.
+WiFi and IMU Data
+fusion improves activity
+recognition compared
+to single-sensor
+methods.
+Low-cost and
+robust
+recognition.
+Requires
+wearable IMU
+sensors.
+Group 5 AI Home Security 16 / 27
+
+PAGE 17
+REQUIREMENT SPECIFICATION
+EXTERNAL INTERFACE REQUIREMENTS:
+ESP32 connected to WiFi router for CSI data collection.
+mmWave radar sensor for human detection.
+Mobile/Web dashboard for monitoring and alerts.
+IoT connectivity for remote notification.
+FUNCTIONAL REQUIREMENTS:
+Collect WiFi CSI data continuously.
+Acquire range, angle, and velocity from mmWave radar.
+Perform signal preprocessing and feature extraction.
+Classify human activities using AI models.
+Detect intrusion and generate real-time alerts.
+Group 5 AI Home Security 17 / 27
+
+PAGE 18
+PROPOSED SYSTEM AND DESIGN
+The proposed system integrates WiFi CSI sensing with mmWave radar for
+intelligent indoor security.
+ESP32 collects CSI data while the mmWave radar captures precise human
+movement information.
+Signal processing removes noise.
+Artificial Intelligence performs activity recognition and intrusion
+classification.
+Fusion of datas from WiFi CSI and mmWave data to improve detection
+accuracy.
+The system sends instant alerts to homeowners through IoT platforms.
+Group 5 AI Home Security 18 / 27
+
+PAGE 19
+Feasibility Study
+Feasibility study evaluates the practicality of implementing the proposed smart
+home security system.
+Technical Feasibility:
+ESP32, WiFi routers, and mmWave radar sensors are commercially
+available.
+Open-source AI frameworks such as TensorFlow and PyTorch support
+activity recognition.
+Operational Feasibility:
+Easy installation without major infrastructure changes.
+Fully automated operation with minimal user intervention.
+Suitable for homes, offices, and elderly monitoring.
+Economic Feasibility:
+Lower installation cost compared to advanced CCTV systems.
+Low maintenance and scalable for multiple rooms.
+Group 5 AI Home Security 19 / 27
+
+PAGE 20
+ARCHITECTURE DIAGRAM
+Figure: 1 Architecture Diagram
+Group 5 AI Home Security 20 / 27
+
+PAGE 21
+USE CASE DIAGRAM
+Figure: 2 Use Case Diagram
+Group 5 AI Home Security 21 / 27
+
+PAGE 22
+DATA FLOW DIAGRAM
+0 DFD
+Figure: 3 Level 0 Data Flow Diagram
+Group 5 AI Home Security 22 / 27
+
+PAGE 23
+DATA FLOW DIAGRAM
+1 DFD
+Figure: 4 Data Flow Diagram Level 1
+Group 5 AI Home Security 23 / 27
+
+PAGE 24
+DATA FLOW DIAGRAM
+2 DFD
+Figure: 5 Data Flow Diagram Level 2
+Group 5 AI Home Security 24 / 27
+
+PAGE 25
+ER DIAGRAM
+Figure: 6 Entity Relationship Diagram
+Group 5 AI Home Security 25 / 27
+
+PAGE 26
+Gantt Chart
+Figure: 7 Gantt Chart
+Group 5 AI Home Security 26 / 27
+
+PAGE 27
+CONCLUSION
+The proposed system combines Wi-Fi CSI, mmWave radar, and Artificial
+Intelligence to provide accurate, camera-free indoor security with real-time
+intrusion detection.
+Group 5 AI Home Security 27 / 27
+
+PAGE 28
+References I
+[1] Y. Zhou, Y. Liu, C. Liu, X. Li, and Y. Lu, “WiMUAR: Wi-Fi-based
+multi-user human activity recognition using hybrid spatio-temporal neural
+network,”IEEE Access, vol. 13, pp. 188 266–188 278, 2025.doi:
+10.1109/ACCESS.2025.3626338
+[2] J. Lee and K.-A. Toh, “Wi-fi csi-based human activity recognition and
+indoor localization with sampling irregularity mitigation,”IEEE Internet of
+Things Journal, vol. 12, no. 22, pp. 47 702–47 716, 2025.doi:
+10.1109/JIOT.2025.3602515
+[3] J. Shi et al., “Human activity recognition based on feature fusion of
+millimeter wave radar and inertial navigation,”IEEE Journal of
+Microwaves, vol. 5, no. 2, pp. 409–424, 2025.doi:
+10.1109/JMW.2025.3539957
+[4] Y. Wang et al., “Stpm: Spatial-temporal point mamba for activity
+recognition using millimeter-wave radar point clouds,” inIEEE
+International Conference on Multimedia and Expo (ICME), 2025.doi:
+10.1109/ICME59968.2025.11208900
+Group 5 AI Home Security 27 / 27
+
+PAGE 29
+References II
+[5] W. Guo, S. Yamagishi, and L. Jing, “Human activity recognition via wi-fi
+and inertial sensors with machine learning,”IEEE Access, vol. 12,
+pp. 18 821–18 836, 2024.doi:10.1109/ACCESS.2024.3360490
+Group 5 AI Home Security 27 / 27
